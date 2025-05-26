@@ -23,10 +23,10 @@ h2 {
 
 h3 {
     font-family: "Lato", sans-serif;
+    font-weight: 400;
     margin: 10px 0 20px;
     color: #17abb3;
     font-size: 24px;
-    font-weight: bold; 
 }
 
 * {
@@ -95,7 +95,7 @@ img:hover {
     text-decoration: none;
 }
 
-.container {
+.big-container {
     display: flex;
     flex-direction: row;
     align-items: left;
@@ -115,7 +115,8 @@ img:hover {
 }
 
 .right-side {
-    background-color: gray;
+    background-color: #ffffff;
+    color: black;
     width: 70%;
     padding : 2rem;
     margin: 0;
@@ -155,6 +156,29 @@ ul li:before {
     padding-right: 5px;
 }
 
+.indent {
+    text-indent: 3rem;
+}
+
+.little-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.blue {
+    color: #17abb3;
+}
+
+.little {
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 1.5rem;
+}
 
 
 
