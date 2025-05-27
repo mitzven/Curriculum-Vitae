@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-
+<!--Après plusieurs tentatives, le favicon ne fonctionne pas.-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/all.css">
-
-
     <script src="https://kit.fontawesome.com/b6f7419e6b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+<!--Création de différentes balises <div> pour faciliter la mise en forme CSS-->
+
     
     <header>
 
-<!--Création de différentes balises <div> pour faciliter la mise en forme CSS-->
         <div class="head">
 
             <div class="photo">
@@ -72,7 +73,7 @@
                 <h3 class="underline-title">Compétences</h3>
 
                 <div class="skill">
-                    <span>HTML</span>
+                    <span class="bold">HTML</span>
                     <span class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -83,7 +84,7 @@
                 </div>
 
                 <div class="skill">
-                    <span>CSS</span>
+                    <span class="bold">CSS</span>
                     <span class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -94,7 +95,7 @@
                 </div>
 
                 <div class="skill">
-                    <span>Javascript</span>
+                    <span class="bold">Javascript</span>
                     <span class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star"></i>
@@ -105,7 +106,7 @@
                 </div>
 
                 <div class="skill">
-                    <span>SEO</span>
+                    <span class="bold">SEO</span>
                     <span class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -118,12 +119,12 @@
                 <h3 class="underline-title">Langues</h3>
 
                 <div class="language">
-                    <span>Français</span>
+                    <span class="bold">Français</span>
                     <span class="level">Langue maternelle</span>
                 </div>
 
                 <div class="language">
-                    <span>Anglais</span>
+                    <span class="bold">Anglais</span>
                     <span class="level">Professionnel</span>
                 </div>
         
@@ -137,7 +138,7 @@
                     <li>Adaptabilité</li>
                 </ul>
         
-                <h3 class="underline-title">Centre d'intérêt</h3>
+                <h3 class="underline-title">Centres d'intérêt</h3>
                 
                 <ul>
                     <li>Lecture</li>
@@ -165,6 +166,7 @@
 
                 <h3 class="underline-title">Formations</h3>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">Master Directrice des Ressources Humaines</span>
                     <span class="blue">2021/2023</span>
@@ -172,7 +174,9 @@
                 <div class="little">
                     ISCG Paris
                 </div>
+            </div>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">Bachelor Chargée de Développement des Ressources Humaines</span>
                     <span class="blue">2020/2021</span>
@@ -180,7 +184,9 @@
                 <div class="little">
                     ISCG Paris
                 </div>
+            </div>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">DUT Gestion des Entreprises et des Administrations</span>
                     <span class="blue">2018/2020</span>
@@ -188,7 +194,9 @@
                 <div class="little">
                     UPEC - IUT de Fontainebleau
                 </div>
+            </div>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">BAC STMG</span>
                     <span class="blue">2018</span>
@@ -196,9 +204,12 @@
                 <div class="little">
                     Lycée du Parc des Loges
                 </div>
+            </div>
+
 
                 <h3 class="underline-title">Alternances</h3>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">Chargée des Ressources Humaines</span>
                     <span class="blue">Septembre 2020 - Août 2021 </span>
@@ -206,7 +217,9 @@
                 <div class="little">
                     SIREDOM
                 </div>
+            </div>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">Chef de Projets Formation</span>
                     <span class="blue">Septembre 2021 - Août 2023 </span>
@@ -214,9 +227,12 @@
                 <div class="little">
                     Crédit Du Nord
                 </div>
+            </div>
+
 
                 <h3 class="underline-title">Expériences professionnelles</h3>
 
+            <div class="flying-over">
                 <div class="little-container">
                     <span class="bold">Chargée de Projets Formation</span>
                     <span class="blue">Septembre 2023 - Décembre 2024</span>
@@ -224,6 +240,7 @@
                 <div class="little">
                     Société Générale
                 </div>
+            </div>
 
             </div>
 
@@ -234,9 +251,19 @@
 
     <footer>
         <div class="social-network">
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-square-instagram"></i>
+            
+            <div class="img-opacity">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <div class="img-opacity">
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <div class="img-opacity">
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+
         </div>
         <p class="footer">mis à jour le : 27/05/2025</p>
     </footer>

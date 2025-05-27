@@ -23,6 +23,7 @@ h2 {
 
 h3 {
     font-family: "Lato", sans-serif;
+    padding-top: 10px;
     font-weight: 400;
     margin: 10px 0 20px;
     color: #17abb3;
@@ -59,6 +60,7 @@ img {
     margin-left: 100px;
     margin-right: 300px;
     cursor: zoom-in;
+    transition: transform 0.3s ease;
 }
   
 img:hover {
@@ -140,24 +142,21 @@ img:hover {
     padding: 5px 0px;
 }
 
-.level {
-    font-size: 14px;
-}
-
 ul {
     list-style-type: none;
+    margin-top: 0;
     padding-left: 0px;
-
 }
 
 ul li:before {
     content: "\23F9";
     color: #17abb3;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .indent {
     text-indent: 3rem;
+    text-align: justify;
 }
 
 .little-container {
@@ -180,7 +179,12 @@ ul li:before {
     margin-bottom: 1.5rem;
 }
 
-
+.flying-over:hover {
+    background-color: #e3e3e3;
+    border-left: 3px solid #17abb3;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
 
 footer {
     background-color: #17abb3;
@@ -195,7 +199,23 @@ footer {
     font-size: 30px;
 }
 
+.social-network {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img-opacity {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.img-opacity:hover {
+    opacity: 0.5;
+}
+
 .footer {
-    text-align: center;
     font-style: italic;
+    text-align: center;
+    font-size: small;
 }
